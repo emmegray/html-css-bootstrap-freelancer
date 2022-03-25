@@ -1,0 +1,15 @@
+header {
+    height: 100px;
+}
+
+header div * {
+    line-height: 100px;    
+}
+
+main section {
+    padding: 100px 0;
+}
+
+footer section {
+    padding: 50px 0;
+}

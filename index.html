@@ -5,41 +5,75 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <title>Bootstrap Freelancer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
 
-  <style>
-    <!--Style CSS here-->
-  </style>
+  <title>Bootstrap Freelancer</title>
 
 </head>
 <body>
-
-  <header>
+  <header class="bg-blue-dark">
     <!--Logo LEFT | 3 buttons + Menu RIGHT-->
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col text-start ">
+          <!-- TITLE -->
+        </div>
+        <div class="col text-end d-none d-sm-block">
+          <!-- MENU -->
+        </div>
+        <div class="col text-end d-block d-sm-none">
+          <!-- BUTTON FOR MENU -->
+        </div>
+      </div>
+    </div>
   </header>
 
   <main>
-    <div class="jumbotron">
-      <!--Jumbotron IMG | text | line with star icon | text CENTER-->
-    </div>
+    <!--Jumbotron IMG | text | line with star icon | text CENTER-->
+    <section class="intro container-fluid bg-green">
+      <div class="jumbotron text-center"></div>
+    </section>
 
-    <div class="container">
-      <div class="portfolio">
-        <!--Portfolio title | line with star icon | 6 IMG CENTER-->
+    <section class="portfolio container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12"></div>
+        <div class="col-lg-4 col-md-6 col-12"></div>
+        <div class="col-lg-4 col-md-6 col-12"></div>
+        <div class="col-lg-4 col-md-6 col-12"></div>
+        <div class="col-lg-4 col-md-6 col-12"></div>
+        <div class="col-lg-4 col-md-6 col-12"></div>
       </div>
+    </section>
 
-      <div class="about">
-        <!--About title | Line with a star icon | Text 2 columns | Download button CENTER-->
+    <section class="about container-fluid bg-green">
+      <div class="container">
+      <!--About title | Line with a star icon | Text 2 columns | Download button CENTER-->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12"></div>
+          <div class="col-lg-6 col-md-6 col-12"></div>
+        </div>
       </div>
-
-      <div class="contact">
-        <!--Contact title | Line with a star icon | Form | Send button-->  
-      </div>
-    </div>
+    </section>
+  
+    <section class="contact container">
+      <!--Contact title | Line with a star icon | Form | Send button-->  
+    </section>
   </main>
 
   <footer>
-    <!--Location | Social with icons | About CENTER-->
+    <section class="info container-fluid bg-blue-dark-alt">
+      <div class="container">
+        <!--Location | Social with icons | About CENTER-->
+        <div class="row">
+          <div class="col text-center"></div>
+          <div class="col text-center"></div>
+          <div class="col text-center"></div>
+        </div>
+      </div>
+    </section>
+    <section class="copy container-fluid bg-blue-dark text-center">
+    </section>
     <!--Copyright-->
   </footer>
 </body>
