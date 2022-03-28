@@ -92,6 +92,25 @@ main section {
     opacity: 1;
 }
 
+.contact form > div {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contact form > div *::placeholder {
+    color: black;
+    font-size: 1rem;
+}
+
+.contact form > div textarea {
+    width: 100%;
+    min-height: 100px;
+    line-height: 1rem;
+}
+
+
 
 footer section {
     padding: 50px 0;
