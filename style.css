@@ -110,10 +110,17 @@ main section {
     line-height: 1rem;
 }
 
+.contact button {
+    min-width: 64px;
+}
+
 .contact button:hover {
     color: white;
+    background-color: #1f836b;
     font-weight: bold;
 }
+
+/* FOOTER */
 
 footer section {
     padding: 50px 0;
