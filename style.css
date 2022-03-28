@@ -1,9 +1,5 @@
 /* HEADER */
 
-header {
-    height: 100px;
-}
-
 header div * {
     line-height: 100px;    
 }
@@ -25,6 +21,11 @@ header a {
 
 header a:hover {
     color: gray;
+}
+
+header i {
+    color: gray;
+    font-size: 1.5rem;
 }
 
 /* MAIN */
