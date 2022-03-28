@@ -137,13 +137,13 @@ footer a {
 
 footer .social a {
     color: white;
-    height: 64px;
-    width: 64px;
+    height: 42px;
+    width: 42px;
     border: 1px solid white;
     border-radius: 50%;
     display: inline-block;
-    line-height: 64px;
-    font-size: 1.8rem;
-    margin-right: 10px;
+    line-height: 42px;
+    font-size: 1.4rem;
+    margin-right: 5px;
     margin-bottom: 10px;
 }
