@@ -19,7 +19,7 @@
       <div class="row justify-content-around">
         <div class="col text-start ">
           <!-- TITLE -->
-          <h1>Start Bootstrap</h1>
+          <h1 class="text-uppercase fw-bold">Start Bootstrap</h1>
         </div>
         <div class="col text-end d-none d-sm-block">
           <!-- MENU -->
@@ -42,28 +42,101 @@
   <main>
     <!--Jumbotron IMG | text | line with star icon | text CENTER-->
     <section class="intro container-fluid bg-green">
-      <div class="jumbotron text-center"></div>
-    </section>
-
-    <section class="portfolio container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-12"></div>
-        <div class="col-lg-4 col-md-6 col-12"></div>
-        <div class="col-lg-4 col-md-6 col-12"></div>
-        <div class="col-lg-4 col-md-6 col-12"></div>
-        <div class="col-lg-4 col-md-6 col-12"></div>
-        <div class="col-lg-4 col-md-6 col-12"></div>
+      <div class="jumbotron align-items-center d-flex flex-column">
+        <img src="img/avatar.svg"/>
+        <h2 class="text-uppercase fw-bold">Start Bootstrap</h2>
+        <div class="separator">
+          <div class="line"></div>
+          <div class="star text-center"><i class="fa-solid fa-star"></i></div>
+          <div class="line"></div>
+        </div>
+        <span class="text-uppercase fw-bold">Graphic Artist - Web Designer - Illustrator</span>
       </div>
     </section>
 
-    <section class="about container-fluid bg-green">
-      <div class="container">
-      <!--About title | Line with a star icon | Text 2 columns | Download button CENTER-->
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-12"></div>
-          <div class="col-lg-6 col-md-6 col-12"></div>
+    <section class="portfolio container text-center">
+      <h2 class="text-uppercase fw-bold">Portfolio</h2>
+      <div class="separator mb-3">
+        <div class="line"></div>
+        <div class="star text-center"><i class="fa-solid fa-star"></i></div>
+        <div class="line"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">  
+          <div class="cover">
+            <img src="img/cabin.png"/>
+            <div class="overlay">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">  
+          <div class="cover">
+            <img src="img/cake.png"/>
+            <div class="overlay">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">  
+          <div class="cover">
+            <img src="img/circus.png"/>
+            <div class="overlay">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">  
+          <div class="cover">
+            <img src="img/game.png"/>
+            <div class="overlay">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">  
+          <div class="cover">
+            <img src="img/safe.png"/>
+            <div class="overlay">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">  
+          <div class="cover">
+            <img src="img/submarine.png"/>
+            <div class="overlay">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+
+    <section class="about container-fluid bg-green text-center">
+      <div class="container px-5">
+        <!--About title | Line with a star icon | Text 2 columns | Download button CENTER-->
+        <h2 class="text-uppercase fw-bold">About</h2>
+        <div class="separator mb-3">
+          <div class="line"></div>
+          <div class="star text-center"><i class="fa-solid fa-star"></i></div>
+          <div class="line"></div>
+        </div>
+
+        <div class="row text-start mb-3">
+          <div class="col-lg-6 col-md-6 col-12">
+            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          </div>
+        </div>
+      </div>
+      
+      <button type="button" class="btn btn-outline-light">
+        <i class="fa-solid fa-download"></i> Download
+      </button>
     </section>
   
     <section class="contact container">
