@@ -115,7 +115,28 @@ main section {
     font-weight: bold;
 }
 
-
 footer section {
     padding: 50px 0;
+}
+
+footer h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .social a {
+    color: white;
+    height: 64px;
+    width: 64px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 64px;
+    font-size: 1.8rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
